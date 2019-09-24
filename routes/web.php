@@ -22,3 +22,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/hobbies', 'PublicController@hobbies');
+
+Route::get('/contact', 'PublicController@contact');

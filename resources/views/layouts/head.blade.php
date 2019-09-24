@@ -8,13 +8,16 @@
     </a>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="{{ url('/home') }}">Home</a>
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li>
+        <a class="nav-link" href="{{ url('/hobbies') }}">Hobbies</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="{{ url('/about') }}">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="{{ url('/contact') }}">Contact Us</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

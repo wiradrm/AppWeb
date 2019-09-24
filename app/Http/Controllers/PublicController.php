@@ -6,11 +6,19 @@ use Illuminate\Http\Request;
 
 class PublicController extends Controller
 {
-    //
+    function contact(){
+      $contact = [
+        "Wira",
+        "Aldhi"
+      ];
+
+      return view('contact', compact('contact'));
+    } 
 
     function about(){
       return view('about');
     }
+
     function hobbies(){
       $hobbies = [
         "Membaca",
