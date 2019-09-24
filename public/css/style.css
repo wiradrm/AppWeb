@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+#content{
+    padding-top: 100px;
+}
+
+.foot{
+    height: 200px;
+    width: 200px;
+    color: #444444;
+}
