@@ -9,3 +9,8 @@
     width: 200px;
     color: #444444;
 }
+
+.navbar-brand{
+    width: 40px;
+    height: 40px;
+}

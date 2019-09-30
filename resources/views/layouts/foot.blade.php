@@ -1,3 +1,3 @@
 <div class="foot">
-    <img src="{{ url('logo.png') }}">
+    <!-- <img src="{{ url('logo.png') }}"> -->
 </div>
