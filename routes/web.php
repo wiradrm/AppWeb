@@ -24,3 +24,13 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/hobbies', 'PublicController@hobbies');
 
 Route::get('/contact', 'PublicController@contact');
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/masuk', function () {
+    return view('login');
+});
+
+Route::post('/login',  'LoginController@login');

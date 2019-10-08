@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 
 #content{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .foot{
@@ -10,7 +10,11 @@
     color: #444444;
 }
 
-.navbar-brand{
-    width: 40px;
+.logo{
     height: 40px;
+    width: 60px;
+}
+
+.carousel-img{
+    width: inherit;
 }
