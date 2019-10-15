@@ -34,3 +34,5 @@ Route::get('/masuk', function () {
 });
 
 Route::post('/login',  'LoginController@login');
+
+Route::get('/search/{key}', 'PublicController@search');

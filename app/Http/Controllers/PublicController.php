@@ -31,4 +31,8 @@ class PublicController extends Controller
 
       return view('hobbies', compact('hobbies'));
     }
+
+    public function search($key){
+      return 'Pencaharian dengan kata kunci " '.$key.' " tidak dapat ditemukan';
+    }
 }
