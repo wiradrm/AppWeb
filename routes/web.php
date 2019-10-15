@@ -36,3 +36,9 @@ Route::get('/masuk', function () {
 Route::post('/login',  'LoginController@login');
 
 Route::get('/search/{key}', 'PublicController@search');
+
+Route::get('/product/create', 'ProductController@create');
+
+Route::post('/product/store', 'ProductController@store');
+
+Route::get('/product', 'ProductController@all');
